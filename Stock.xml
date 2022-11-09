@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1252" standalone="yes"?>
+<Records>
+  <Record>
+    <Row
+      A="44441"
+      B="55551"
+      C="1000"
+    />
+  </Record>
+  <Record>
+    <Row
+      A="44442"
+      B="55552"
+      C="1200"
+    />
+  </Record>
+  <Record>
+    <Row
+      A="44443"
+      B="55553"
+      C="1400"
+    />
+  </Record>
+</Records>

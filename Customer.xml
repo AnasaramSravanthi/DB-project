@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1252" standalone="yes"?>
+<Records>
+  <Record>
+    <Row
+      A="77771"
+      B="Sravanthi Anasaram"
+      C="Sravanthi@gmail.com"
+      D="899 Camden Place New-York"
+    />
+  </Record>
+  <Record>
+    <Row
+      A="77772"
+      B="customer two"
+      C="custwo@gmail.com"
+      D="1691 Petunia Way Alabama"
+    />
+  </Record>
+  <Record>
+    <Row
+      A="77773"
+      B="customer three"
+      C="custhree@gmail.com"
+      D="2305 Perry Street Michigan"
+    />
+  </Record>
+</Records>
