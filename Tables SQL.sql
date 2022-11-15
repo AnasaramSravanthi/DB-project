@@ -1,0 +1,9 @@
+CREATE TABLE customer (Customer_ID INT,NAME VARCHAR(255),Email VARCHAR(255),Address VARCHAR(255),PRIMARY KEY (Customer_ID));
+
+CREATE TABLE toy (Toy_ID INT,Toy_NAME VARCHAR(100),Toy_Price FLOAT,PRIMARY KEY (Toy_ID));
+
+CREATE TABLE stock (Stock_ID INT,Toy_ID INT,QtyOnHand INT,PRIMARY KEY (Stock_ID),FOREIGN KEY (Toy_ID) REFERENCES toy(Toy_ID));
+
+CREATE TABLE orderr(Order_ID INT,Toy_ID INT,Customer_ID INT,Quantity INT,PRIMARY KEY (Order_ID),FOREIGN KEY (Toy_ID) REFERENCES toy (Toy_ID),FOREIGN KEY (Customer_ID) REFERENCES customer(Customer_ID));
+
+CREATE TABLE payment (Payment_ID INT,Order_ID INT,Total_payment FLOAT,PRIMARY KEY (Payment_ID),FOREIGN KEY (Order_ID) REFERENCES orderr(Order_ID));
