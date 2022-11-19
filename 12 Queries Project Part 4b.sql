@@ -1,0 +1,18 @@
+-- insert into toy values (55554, 'New toy', 25.50);
+-- insert into toy values (55555, 'Latest toy', 35.00);
+--  
+-- UPDATE toy SET Toy_Price=15.00 WHERE Toy_ID=55552;
+-- UPDATE toy SET Toy_Price=19.00 WHERE Toy_ID=55553;
+--  
+-- delete from stock where Stock_ID=44443;
+--   
+-- select * from stock where QtyOnHand > 1100;
+--  
+-- select * from toy JOIN stock ON toy.Toy_ID=stock.Toy_ID;
+-- select * from orderr JOIN payment ON orderr.Order_ID=payment.Order_ID;
+--  
+-- select sum(Total_payment) from payment;
+-- select max(QtyOnHand) from stock;
+-- select count(Toy_ID) from toy;
+--  
+-- select * from toy,stock;
